@@ -3,34 +3,25 @@
 
 ##
 
-git init -inicializa/cria o repositorio git vazio;
-<br>
-git add- adiconar o arquivo ao repositorio;
-<br>
+git init -inicializa/cria o repositorio git vazio;<br>
+git add- adiconar o arquivo ao repositorio;<br>
 git status- verifica o status dos arquivos antes de adicionar 
-ou commitar;
-<br>
-git commit -u - commita o arquivo e envia uma mensagem;
-<br>
+ou commitar;<br>
+git commit -u - commita o arquivo e envia uma mensagem;<br>
 git remote add origin  - adiciona a conexão do repositorio do 
-github ao git;
-<br>
-git push -u origin main- envia o projeto final ao github;
-<br>
-git add . - adiciona todos os arquivos ;
-<br>
-git checkout- muda a branch atual;
-<br>
-git merge "nome da branch" - junta as branch para o commit e depois envia  um push para o remote(git), alteração final;
-<br>
-git clone- clona o do projeto;
-<br>
-git pull- recebe/puxa alterações;
-<br>
-git rm nome_arquivo.extensao, depois commita
-<br>
-git commit -m "arquivo remvido"
-<br>
+github ao git;<br>
+git push -u origin main- envia o projeto final ao github;<br>
+git add . - adiciona todos os arquivos ;<br>
+git checkout- muda a branch atual;<br>
+git merge "nome da branch" - junta as branch para o commit e depois envia  um push para o remote(git), alteração final;<br>
+git clone- clona o do projeto;<br>
+git pull- recebe/puxa alterações;<br>
+git rm nome_arquivo.extensao, depois commita;<br>
+git commit -m "arquivo remvido";<br>
+git remote -v = visualiza todos os controles remotos de nosso repositorio local;<br>
+git remote rm origin = remove um controle remoto;<br>
+
+
 
 cd- comando utilizado para entrar em uma pasta
 

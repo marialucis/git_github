@@ -1,0 +1,7 @@
+
+COMANDOS VIA TERMINAL:
+ls= ver a pasta via terminal
+cd= navega pelas pastas do diretorio via terminal
+cd .. = volta para o diretorio 
+clear = limpa o terminal
+code. = abre o vscode via terminal= gitbash

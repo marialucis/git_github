@@ -1,0 +1,19 @@
+SECAO2:
+Atalhos e Configurações essenciais-VSCODE
+
+vscode marktplace- lojas de extensões na web
+
+
+COMANDOS:
+CTRL+B = esconde a sidebar
+CTRL+P = abre arquivos rapidamente
+code . abre o vscode via terminal= gitbash
+CTRL+SHIFT+M = abre a tela de erros
+CTRL+K e CTRL+T = modifica o tema do vscode, usar esses comandos na aba extensão da sidebar
+CTRL+SHIFT+, = abre o menu de configuração do vscode
+CTRL+SHIFT+X= abre o menu de extensoes
+CTRL+SHIFT+" = abre um terminal 
+CTRL+] = edição de arquivos side by side
+CTRL+W = fecha atalhos
+CTRL+TAB = navegação entre os arquivos abertos
+CTRL+SHIFT+T= reabre um arquivo fechado recentemente
