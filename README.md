@@ -2,5 +2,6 @@
 
 ##
 
-Criei o repo para realizar testes aprendido em cursos para melhor aprendizado.
+Repositorio criado para testar algumas funcionalidades do git, e para adicionar projetos praticados em cursos afins.
+
 

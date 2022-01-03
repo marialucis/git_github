@@ -1,0 +1,108 @@
+Seção1:
+Curso Linux
+
+1-Como instalar o Linux
+2-Conceitos importantes do linux
+3-Comandos fundamentais
+4-Gerenciamento de diretórios e arquivos
+5-Gerenciamento de pacotes/aplicativos
+6-Filtros e buscas em arquivos/diretórios
+7-Editores de texto
+8-Gerenciamento de usuários e grupos
+9-Gerenciamento de permissões
+10-Gerenciamento básico de rede
+11-Compactação de arquivos
+12-Instalação de um ambiente LAMP
+
+
+
+
+Seção2:
+Teoria sobre o Linux
+
+O que é distribuição? Qual distribuição utilizar?
+*Versões do Linux;
+*Diferente de Mac e Windows;
+*Algumas são derivadas de outras;
+
+
+O que é o Kernel do linux
+* é o core do sistema
+
+
+
+
+Seção3:
+Linux fundamental
+*Comandos básicos
+*Noções do SO
+
+
+
+Conhecendo o terminal e o shell
+CTRL+ALT+T = abre o terminal no linux
+
+o terminal é uma janela que executa o shell para trazer as respostas baseados em comando;
+
+sintaxe dos comandos
+COMDANDO -OPÇOES ARQUIVOS/DIRETORIOS
+
+diretorios são pastas de arquivos
+
+Comando CD-
+Tem a função de navegar entre os diretorios 
+
+CD ~ - pasta home do usuario
+
+ls- lista os diretorios
+clear- limpa o terminal
+
+cd .. = home do usuario
+
+
+Seção4:
+Gerenciamento de diretorios e arquivos
+
+
+mkdir= cria diretorios
+rm -dv =remove diretorios vazios
+rm -rfv= remove o diretorios
+rmdir= remove diretorios vazios
+
+cp- copia arquivos e diretorios
+mv-move os arquivos para diretorios 
+
+
+
+Seção5:
+Gerenciamento de pacotes/aplicativos linux
+Repositorios são local/servidores dos arquivos dos pacotes/aplicativos
+
+O comando apt-get é responsavel pelo gerenciamentos dos pacotes/aplicativos;
+comando tree organiza/mostra a estrutura os diretorios;
+
+ATUALIZAÇÕES MENSAL
+
+*Atualizando repositórios:
+sudo apt-get update- só adm pode executar ;
+
+*Atualizando pacotes/aplicativos:
+sudo apt-get upgrade 
+
+*Instalando pacotes/aplicativos:
+sudo apt-get install tree 
+
+*Deletando pacotes/aplicativos:
+sudo apt-get purge tree 
+
+*Atualizando Linux-*NAO USAR*
+sudo apt-get dist-upgrade
+
+*Limpando pacotes/aplicativos desnecessarios
+sudo apt-get autoremove
+
+*Buscando pacotes/aplicativos
+ apt-cache search 
+ 
+ *PODEMOS USAR O APT OU APT-GET*
+ 
