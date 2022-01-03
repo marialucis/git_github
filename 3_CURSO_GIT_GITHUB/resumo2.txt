@@ -1,0 +1,33 @@
+Curso Git/GitHub
+
+*Branches
+Branche é a forma que o git separa as versões dos projetos;
+Quando um projeto é criado ele inicia na branch masterm estamos trabalhando nela até este ponto do curso;
+Geralmente casa nova feature de um projeto fica em um branch separado;
+Após a finalização das alteração os branchs são unidos para ter codigo-fonte final;
+
+
+*Criando e visualizando os branches
+Para visualizar os branchs disponiveis basta digitar git branch;
+Para criar um branch é só utilizar o comando git branch <nome>;
+
+
+*Deletando branches
+Podemos deletar um branch com a flag -d ou --delete
+Não é comum deletar um branch, normalmente guardamos o histórico do trabalho;
+Geralmente se usa o dele quando o branch foi criado errado;.
+git branch -d tresods 
+
+
+*Mudando de branch
+Podemos mudar para outro branch utilizando o comando git checkout -b algum_nome;
+Este comando também é utilizado para dispensar mudanças de um arquivo;
+Alterando o branch podemos levar alterações que não foram commitadas junto, tamar cuidado!;
+
+
+sempre cirar branch novo na master/main, antes de criar dar um git pull para receber atualizaçção da versão mais recente;
+
+
+*Utilizando tag
+Podemos criar tags nos branches por meio do comando git tag -a <nome> -m "";
+A tag serve como um checkpoint de um branch;
