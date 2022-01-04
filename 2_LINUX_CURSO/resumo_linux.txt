@@ -106,3 +106,19 @@ sudo apt-get autoremove
  
  *PODEMOS USAR O APT OU APT-GET*
  
+ 
+ 
+ 
+Seção6:
+Filtro e buscas de arquivos e diretórios 
+
+
+Seção7: 
+Editores de texto mais utilizados
+-Vim
+-Nano
+
+
+
+Seção8:
+Gerenciamento de grupo de usuarios
