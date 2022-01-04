@@ -122,3 +122,20 @@ Editores de texto mais utilizados
 
 Seção8:
 Gerenciamento de grupo de usuarios
+-Criar usuarios
+-Deletar usuarios
+-Criar grupos
+-Deletar grupos
+-Desabilitar/habilitar usuários
+
+*Adicionando usuario
+sudo adduser lucitesteadmin
+
+*Deletando usuario
+sudo userdel --remove nome_usuarios
+
+*Como virar um super usuario
+sudo su = usuario admin
+
+
+ls /home/ = diretorio home, usuarios
