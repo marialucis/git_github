@@ -262,6 +262,17 @@ CREATE TABLE users();
 INSERT INTO users() VALUES ();
 
 
+**criando um usuario para o mysql
+
+
+
+
+
+
+**INSTALANDO O PHP
+sudo apt install php libeapache2-mod-php-mysql php-cli 
+
+
 
 
 *INSTALANDO O PHPMYADMIN
@@ -270,4 +281,5 @@ sudo apt-get install phpmyadmim php-mbstring php-phpmyadmim-motranslator
 
 *INSTALADO O GIT
 sudo apt-get install git
+
 
