@@ -182,3 +182,92 @@ EXEMPLOS DE PORTAS:
 443:HTTPS
 3306: MYSQL
 4000: API
+
+
+*O QUE É TCP?
+TRANSMISSION CONTROL PROTOCOL = TCP
+PROTOCOLO UTILIXADO PARA TRANSMISSÃO DE DADOS PELA REDE
+
+O QUE UTILIZA O TCP:
+SMTP(ENVIO DE EMAILS)
+FTP(TRANSFERENCIA DE ARQUIVOS)
+HTTP(PROTOCOLO PARA NAVEGAR NA INTERNET)
+
+
+* O QUE É UPD?
+USER DATAGRAM PROTOCOL = UDP
+ESPECIE DE IRMAO DO TCP, SERVE TAMBEM PARA ENVIAR DADOS
+
+
+*COMANDO: PING 
+
+
+*COMANDO IFCONFIG
+VERIFICA AS PROPRIEDADES DE REDE 
+
+*COMANDO TCPDUMP
+VERIFICA AS CONEXÕES
+
+**VERIFICANDO O IP DA MAQUINA
+hostname -I
+
+
+
+Seção11:
+Compactação e descompactação de arquivos e direorios
+
+*Compactação em ZIP
+zip -r nomearquivo.zip nomediretorio
+
+
+*Descompactação em zip
+unzip nomearquivo.zip -d nomediretorio
+
+
+
+
+Seção12:
+Projeto: Instalando o LAMP
+
+*INSTALANDO APACHE
+antes de qualquer instalação, atualizar os repositórios usando SUDO APT UPDATE
+SUDO APT INSTALL APACHE2
+
+*ALTERANDO AS CONFIGURAÇÕES DO FIREWALL PARA ACESSAR O LOCALHOST 
+ip localhost 127.0.0.1
+
+MOSTRA AS APLICAÇÕES DISPONIVEIS
+sudo ufw app lista
+
+sudp ufw allow in "Apach2"
+
+SUDO SYSTEMCTL RESTART APACH2 , reinicia o apache
+SUDO SYSTEMCTL STATUS APACHE2, verifica o status do apacheresta
+
+*INSTALANDO O MYSQL
+
+sudo apt install mysql-server
+sudo mysql_secure_installation
+NO, SENHA, SENHA, Y,Y,Y,Y
+
+
+**CRIANDO UM BANCO DE DADOS
+
+CREATE DATABASE test;
+
+USE test;
+
+CREATE TABLE users();
+
+INSERT INTO users() VALUES ();
+
+
+
+
+*INSTALANDO O PHPMYADMIN
+sudo apt-get install phpmyadmim php-mbstring php-phpmyadmim-motranslator
+
+
+*INSTALADO O GIT
+sudo apt-get install git
+
