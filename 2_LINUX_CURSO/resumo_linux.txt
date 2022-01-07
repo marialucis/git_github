@@ -305,6 +305,6 @@ mkdir app
 	$users = mysqli_fetch_all($result,MYSQLI_ASSOC);
 	
 	
-	mysqli_close($conn);
+	mysqli_close($conn);//
 	
 	?>
