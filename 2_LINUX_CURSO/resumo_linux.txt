@@ -263,9 +263,8 @@ INSERT INTO users() VALUES ();
 
 
 **criando um usuario para o mysql
-
-
-
+create user 'luci'@'localhost' identified by 'adm123';
+grant all privileges on *.* to 'luci'@'localhost';
 
 
 
@@ -283,3 +282,29 @@ sudo apt-get install phpmyadmim php-mbstring php-phpmyadmim-motranslator
 sudo apt-get install git
 
 
+
+
+
+*criando diretorio
+mkdir app
+
+
+
+*Conexão do banco no php
+
+<?php
+	$host = 'localhost';
+	$user = 'luci';
+	$pass = 'adm123';
+	$db   = 'test' ;
+	
+	$conn = mysqli_connect($host,$user,$pass,$db); --funcao do mysql que faz a conexão
+	
+	$sql = 'SELECT * FROM  users';
+	$result = mysqli_query($conn,$sql);
+	$users = mysqli_fetch_all($result,MYSQLI_ASSOC);
+	
+	
+	mysqli_close($conn);
+	
+	?>
